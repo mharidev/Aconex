@@ -4,10 +4,8 @@
 
 Why GEDCOM Parser Challenge?
 -----------------------------
-GEDCOM parser problem statement was also applicable to other domains making it an interesting use case for extension. 
-The challenge also provided with interesting and challenging opportunities to demonstrate Test Driven Development 
-presenting several corner cases to be tackled and validated. The project could showcase Java SDK(1.8)'s rich 
-parsing /file handling library rather than relying on other third party libraries. 
+GEDCOM parser problem statement could be applicable to several other domains making it an interesting use case for extension. The challenge could also showcase Java SDK(1.8)'s rich parsing /file handling library rather than relying on other third party libraries. 
+It also provided opportunities to address several corner cases and data validations achieved via Test Driven Development.
 
 Design and Approach:
 ---------------------
@@ -45,6 +43,6 @@ Total Failures = 0
 
 Shortcomings/known issues:
 -----------------------------
-Not checking if IDs across the input file are unique
-Please note: For isValidTag implementation, tags of only length 3 or 4 (after trimming) are considered as valid and allows mixed cases since eventually it converts to lowercase 
+Not checking if IDs across the input file are unique.
+Please note: For isValidTag implementation, tags of only length 3 or 4 (after trimming) are considered as valid and allows mixed cases since eventually it converts to lowercase.
 
