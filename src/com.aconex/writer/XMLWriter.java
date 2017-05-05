@@ -35,8 +35,7 @@ public class XMLWriter implements com.aconex.writer.BaseWriter<Node> {
      *          Parent node with tag - could also have id, value
      * @throws IOException
      *
-     */
-    @Override
+     */    
     public void parentNode(Node node) throws IOException {
         beautify(node);
         out.write("<" + node.getTag());
@@ -56,8 +55,7 @@ public class XMLWriter implements com.aconex.writer.BaseWriter<Node> {
      *          Child node with tag - could also have value
      * @throws IOException
      *
-     */
-    @Override
+     */    
     public void childNode(Node node) throws IOException {
         beautify(node);
         out.write("<" + node.getTag() + ">");
@@ -74,8 +72,7 @@ public class XMLWriter implements com.aconex.writer.BaseWriter<Node> {
      *          Last node
      * @throws IOException
      *
-     */
-    @Override
+     */   
     public void endNode(Node node) throws IOException {
         beautify(node);
         out.write("</" + node.getTag() + ">\n");
