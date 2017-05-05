@@ -29,7 +29,6 @@ public class NodeParser implements BaseParser<Node> {
      * @throws GEDCOMException
      *
      */
-    @Override
     public Node extractInfo(String line) throws GEDCOMException
     {
         int level;
