@@ -6,7 +6,7 @@ Why GEDCOM Parser Challenge?
 -----------------------------
 GEDCOM parser problem statement was also applicable to other domains making it an interesting usecase for extension. 
 The challenge also provided with interesting and challenging opportunities to demonstrate Test Driven Development 
-preseting several corner cases to be tackled and validated. The project could showcase Java SDK(1.8)'s rich 
+presenting several corner cases to be tackled and validated. The project could showcase Java SDK(1.8)'s rich 
 parsing /file handling library rather than relying on other third party libraries. 
 
 Design and Approach:
